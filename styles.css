@@ -3,10 +3,9 @@ body {
     justify-content: center;
 }
 
-.container {
-    border: solid 1px black;
+.container {    
     border-radius: 1%;
-    width: 60%;
+    width: 60%;    
 }
 
 .header {
@@ -15,7 +14,8 @@ body {
     justify-content: center;
     background-color: lightgray;
     padding: 6px;
-
+    border: solid 1px black;
+    border-radius: 6px;
 }
 
 .part1 {
@@ -82,4 +82,35 @@ body {
     width: 65%;
     margin-left: 1.5%;
     height: 4vh;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    margin-top: 4px;
+}
+
+.div-izq {    
+    background-color:darkslategrey;
+    width: 32%;
+    border-radius: 6px;
+    border: solid 1px black;    
+    text-align: center;
+}
+
+.div-centro {    
+    background-color:cadetblue;
+    width: 32%;
+    border-radius: 6px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.div-der {    
+    background-color:orange;
+    width: 32%;
+    border-radius: 6px;
+    border: solid 1px black;
+    text-align: center;
 }
