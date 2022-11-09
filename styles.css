@@ -1,4 +1,37 @@
-body {
+.container {
+    border: solid 1px black;
+}
+
+.header-child {
+    border: solid 1px black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    margin: 3px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    background-color: lightcoral;
+    justify-content: space-between;
+}
+
+.header-child {
+    background-color: blueviolet;
+}
+
+.header-child1 {
+    background-color: blue;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: row;
     background-color: lightcyan;
+    justify-content: space-between;
 }
 
